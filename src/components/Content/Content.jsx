@@ -5,6 +5,7 @@ const Content = (props) => {
   return (
     <div className="content">
       <ContentData
+        display={props.cName}
         heading={props.cHeading}
         headLink={props.hLink}
         text={props.cText}

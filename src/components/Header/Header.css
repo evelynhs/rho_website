@@ -11,7 +11,7 @@
   width: 100%;
   position: relative;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   margin: auto;
 }
 
@@ -19,6 +19,24 @@
   top: 0px;
   color: white;
   font-family: "Crimson Text", serif;
+}
+
+.sticker_hide {
+  display: none;
+}
+
+.sticker_show {
+  margin-left: -25px;
+}
+
+.sticker-text {
+  position: absolute;
+  margin-left: 7.5%;
+  margin-top: -30px;
+  padding: 10px 30px;
+  font-size: 1rem;
+  border: 1.5px solid black;
+  background-color: white;
 }
 
 img {
@@ -31,7 +49,7 @@ img {
 
 .button-text {
   position: absolute;
-  bottom: 60px;
+  bottom: 50px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;

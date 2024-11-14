@@ -33,6 +33,11 @@ export const MenuItems = [
         title : "Active House",
         url : "/sisters/activehouse",
         cName : "sub-links",
+      },
+      {
+        title : "Alumni",
+        url : "/alumni",
+        cName : "sub-links",
       }
     ],
   },
@@ -70,13 +75,7 @@ export const MenuItems = [
   },
   {
     title : "More",
+    url : "/more",
     cName : "nav-links",
-    submenu: [
-      {
-        title : "Alumni",
-        url : "/alumni",
-        cName : "sub-links",
-      }
-    ],
   },
 ]

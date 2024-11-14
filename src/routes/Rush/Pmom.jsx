@@ -11,6 +11,7 @@ function Pmom () {
       <Header
         cName="heading"
         headerImg={shelly}
+        sticker="sticker_hide"
         buttonText="LEARN MORE"
         url="/rush/rushweek"
         btnClass="show"

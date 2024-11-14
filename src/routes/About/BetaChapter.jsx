@@ -8,8 +8,9 @@ function BetaChapter () {
     <>
       <Navbar/>
       <Header
-        cName="header"
+        cName="heading"
         headerImg="../src/assets/active house.jpg"
+        sticker="sticker_hide"
       />
       <h1>This is BetaChapter</h1>
       <Content

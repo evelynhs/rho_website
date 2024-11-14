@@ -11,6 +11,7 @@ function Cabinet () {
       <Header
         cName="heading"
         headerImg="../src/assets/active house.jpg"
+        sticker="sticker_hide"
         buttonText="MEET THE SISTERS"
         url="/sisters/activehouse"
         btnClass="show"

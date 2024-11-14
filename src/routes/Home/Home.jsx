@@ -17,8 +17,21 @@ function Home () {
       <Header
         cName="heading_home"
         headerImg="src/assets/ah_long.jpeg"
+        sticker="sticker_show"
+        sticker_text="Together as one, striving for excellence"
       />
       <Content
+        cName="dest1"
+        cHeading="Welcome to Rho Delta Chi"
+        cText="Howdy! Welcome to the Beta Chapter of Rho Delta Chi at Texas A&M University. 
+        Established in 1995, we are an Asian-interest sorority focused on promoting academic 
+        achievement, leadership, personal growth, and self-esteem. "
+        imgs="image"
+        cImg1="src/assets/eboard.jpeg"
+      />
+
+      <Content
+        cName="dest2"
         cHeading="A message from our president:"
         cText="I never expected the impact Rho Delta Chi would have on me. Coming straight 
         into college after 2 years of COVID through high school, I was hesitant to find my 
@@ -33,7 +46,7 @@ function Home () {
         allowing our sorority to continue to grow and strive in the ways our founders and 
         past leaders have set up for us. I am so excited for our Fall ‘24 Rush semester!"
         imgs="image"
-        cImg1="src/assets/krisit-message.jpeg"
+        cImg1="src/assets/kristi-message.jpeg"
       />
       
       <Footer/>
