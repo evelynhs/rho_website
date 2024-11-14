@@ -1,0 +1,23 @@
+.space {
+  color: #fff;
+  height: 7rem;
+}
+
+.banner {
+  background-color: #d4f4fa;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-family: "Crimson Text", serif;
+}
+
+.rushevents {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  width: 90%;
+}

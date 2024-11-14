@@ -1,0 +1,90 @@
+.heading {
+  background-color: #fad9de;
+  width: 85%;
+  max-width: 1200px;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+.heading_home {
+  background-color: #fad9de;
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+.title {
+  top: 0px;
+  color: white;
+  font-family: "Crimson Text", serif;
+}
+
+img {
+  width: 85%;
+  border-radius: 13px;
+  object-fit: cover;
+  justify-content: center;
+  margin: auto;
+}
+
+.button-text {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.button-text h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  background: white;
+}
+
+.button-text p {
+  font-size: 1.3rem;
+  color: white;
+  padding: 0.5rem 0 2rem 0;
+}
+
+.button-text .show {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  padding: .6vh 3vh;
+  border-radius: 13px;
+  border: 2px solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.button-text .show:hover {
+  background-color: #dadbd6;
+  border: 2px solid #dadbd6;
+  color: black;
+}
+
+@media screen and (max-width: 850px) {
+  img {
+    width: 95%;
+  }
+  .button-text {
+    bottom: 0px;
+  }
+
+  .button-text h1 {
+    padding: 10px, 20px;
+  }
+
+  .button-text p {
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0;
+  }
+
+  .button-text .show {
+    padding: .5vh 2.5vh;
+  }
+}

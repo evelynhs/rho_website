@@ -1,0 +1,10 @@
+.photocard {
+  background-color: white;
+  width: 280px;
+  text-align: left;
+}
+
+.p-image {
+  text-align: center;
+  padding: 10px;
+}

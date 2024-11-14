@@ -1,0 +1,48 @@
+.loginpage {
+  height: 100vh;
+  position: relative;
+  top: 150px;
+  align-items: center;
+}
+
+form {
+  margin: 0 auto;
+  align-items: center;
+  position: relative;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 13px;
+  background: transparent;
+  align-items: center;
+  transition: all .3s ease;
+}
+
+.submit {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 13px;
+  background-color: #dadbd6;
+  outline: none;
+}
+
+.submit:hover {
+  background-color: #f3f3f2;
+}
+
+label {
+  position: absolute;
+  cursor: text;
+  z-index: 2;
+  top: 13px;
+  left: 10px;
+  padding: 0 10px;
+  transition: all .3s ease;
+}
+
+input:focus + label, input:valid + label {
+  font-size: 11px;
+  top: -5px;
+}
