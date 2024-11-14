@@ -1,12 +1,5 @@
-body {
-  margin: 0;
-  overflow-x: hidden;
-}
-
 .nav {
   color: #222;
-  cursor: pointer;
-  white-space: nowrap;
   font-family: "Crimson Text", serif;
   font-size: 2rem;
   margin: 30px;
@@ -104,24 +97,33 @@ body {
 }
 
 @media screen and (max-width: 850px) {
+  .nav {
+    color: #222;
+    font-family: "Crimson Text", serif;
+    font-size: 1.5rem;
+    margin: 20px;
+  }
+
   .NavbarItems {
     z-index: 99;
+    height: 50px;
   }
 
   .nav-menu {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
-    position: absolute;
     background: #f8f6f6;
+    position: absolute;
     width: 100%;
-    top: -100%;
-    right: -100%;
+    top: 0;
+    right: 0;
     opacity: 0;
     align-items: stretch;
     padding: 80px 0 20px 0;
     margin: 0;
     transition: 0.3s ease-in-out;
+    z-index: -1;
   }
 
   .nav-menu.active {
