@@ -6,9 +6,9 @@ function Header (props) {
       <div className={props.cName}>
         <h1 className="title">{props.titles}</h1>
         <img alt="headerImg" src={props.headerImg}/>
-        <div className={props.sticker}>
+        {/* <div className={props.sticker}>
           <p className="sticker-text">{props.sticker_text}</p>
-        </div>
+        </div> */}
 
         <div className="button-text">
           <h1>{props.title}</h1>

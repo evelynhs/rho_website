@@ -7,8 +7,11 @@ const Photocard = (props) => {
         <img src={props.image} alt="image"></img>
       </div>
 
-      <h4>{props.heading}</h4>
-      <p>{props.text}</p>
+      <h2>{props.name}</h2>
+      <h3>{props.position}</h3>
+      <p>{props.class}</p>
+      <p>Why Rho?</p>
+      <p>{props.why}</p>
     </div>
   );
 };

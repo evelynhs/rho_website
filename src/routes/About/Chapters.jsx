@@ -15,7 +15,7 @@ function Chapters () {
   return (
     <>
       <Navbar/>
-      <h1 className="header">Rho Delta Chi Chapters & Colony</h1>
+      <h1 className="ch_header">Rho Delta Chi Chapters & Colony</h1>
       
       <Content2
         cHeading="Alpha Chapter"

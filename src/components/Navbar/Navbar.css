@@ -5,6 +5,11 @@
   margin: 30px;
 }
 
+.nav a {
+  text-decoration: none;
+  color: #222;
+}
+
 .NavbarItems {
   background-color: #f8f6f6;
   display: flex;

@@ -1,6 +1,6 @@
-.header {
+.ch_header {
   font-family: "Crimson Text", serif;
-  margin-top: 1rem;
-  margin-bottom: -2rem;
+  margin: 2rem auto 1rem auto;
   width: 90%;
+  font-size: 2.5rem;
 }

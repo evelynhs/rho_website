@@ -8,18 +8,13 @@ function Home () {
   return (
     <>
       <Navbar/>
-      {/* <div >
-        <h1>Who we are</h1>
-        <p>Howdy! Welcome to the Beta Chapter of Rho Delta Chi at Texas A&M University.
-        Established in 1995, we are an Asian-interest sorority focused on promoting academic 
-        achievement, leadership, personal growth, and self-esteem.</p>
-      </div> */}
       <Header
         cName="heading_home"
         headerImg="src/assets/ah_long.jpeg"
-        sticker="sticker_show"
-        sticker_text="Together as one, striving for excellence"
+        // sticker="sticker_show"
+        // sticker_text="Together as one, striving for excellence"
       />
+      {/* <p className="motto">Together as one, striving for excellence</p> */}
       <Content
         cName="dest1"
         cHeading="Welcome to Rho Delta Chi"
@@ -29,7 +24,6 @@ function Home () {
         imgs="image"
         cImg1="src/assets/eboard.jpeg"
       />
-
       <Content
         cName="dest2"
         cHeading="A message from our president:"

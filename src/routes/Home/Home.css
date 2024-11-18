@@ -1,0 +1,12 @@
+.motto {
+  background-color: aquamarine;
+  border: solid 1px black;
+  margin: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 850px) {
+  .motto {
+    margin: auto;
+  }
+}

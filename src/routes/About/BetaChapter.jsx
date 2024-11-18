@@ -7,13 +7,8 @@ function BetaChapter () {
   return (
     <>
       <Navbar/>
-      <Header
-        cName="heading"
-        headerImg="../src/assets/active house.jpg"
-        sticker="sticker_hide"
-      />
-      <h1>This is BetaChapter</h1>
       <Content
+        cName="dest1"
         cHeading="Who are we?"
         cText="Rho Delta Chi was established on January 17, 1991 as the first Asian 
         American sorority at the University of California, Riverside. The sorority 
@@ -25,10 +20,11 @@ function BetaChapter () {
         sisterhood in hopes that its original purpose of bringing harmony among all 
         ethnicity, would not be forgotten but passed on from one generation to another."
         imgs="image"
-        cImg1=""
+        cImg1="../src/assets/beta_chapter.jpg"
       />
 
       <Content
+        cName="dest2"
         cHeading="Our Sisterhood <3"
         cText=" The Beta Chapter of Rho Delta Chi was founded on September 16, 1995 by 
         seven who wanted to create a new sisterhood on campus. Our organization has 
@@ -37,7 +33,7 @@ function BetaChapter () {
         has firmly established itself as a well respected organization on campus as 
         well as in local and Asian communities everywhere. "
         imgs="image"
-        cImg1=""
+        cImg1="../src/assets/mgc_showcase.jpg"
       />
 
       <Footer/>

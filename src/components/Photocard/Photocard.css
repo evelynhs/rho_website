@@ -1,7 +1,8 @@
 .photocard {
-  background-color: white;
-  width: 280px;
-  text-align: left;
+  background-color: aliceblue;
+  max-width: 400px;
+  text-align: center;
+  padding: 0 20px 10px 20px;
 }
 
 .p-image {

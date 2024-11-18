@@ -13,7 +13,7 @@ class Navbar extends Component {
     return (
       <>
       <div className="nav">
-        <h1>Rho Delta Chi</h1>
+        <a href="/"><h1>Rho Delta Chi</h1></a>
         <p>TEXAS A&M UNIVERSITY</p>
       </div>
       <nav className="NavbarItems">
